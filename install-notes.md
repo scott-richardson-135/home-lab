@@ -8,7 +8,7 @@ On my machine, I had to enter the BIOS/UEFI setup and change the Boot List Optio
 
 I mostly followed default debian installation using the gui interface
 
-# Setting up Sudo
+## Setting up Sudo
 SSH into the server
 Run su root to elevate to root privilege
 run apt install sudo nano (nano because I wanted a text editor)
