@@ -1,1 +1,16 @@
+# sshd_config - Hardened settings
+# shows relevant changes to sshd_config file for hardening
+
+
+# Non-default port to prevent automated scripts
+Port 2222
+
+# Disable Root Login
+PermitRootLogin no
+
+# allow public key authentication
+PubkeyAuthentication yes
+
+# disable password-based logins, require ssh keys
+PasswordAuthentication no
 
