@@ -1,0 +1,6 @@
+To                         Action      From
+--                         ------      ----
+2222                       ALLOW       Anywhere
+80                         ALLOW       Anywhere
+2222 (v6)                  ALLOW       Anywhere (v6)
+80 (v6)                    ALLOW       Anywhere (v6)
