@@ -14,7 +14,7 @@ I don't have much to allow yet, so i just ran this command with the few services
 
 ```sudo ufw allow 80 # NGINX```
 
-Then to enable the firewall:F
+Then to enable the firewall:
 
 ```sudo ufw enable```
 
@@ -22,12 +22,5 @@ Then to enable the firewall:F
 To view rules, run: 
 ```sudo ufw status```
 
-Here are my current rules:
-
-To                         Action      From
---                         ------      ----
-2222                       ALLOW       Anywhere
-80                         ALLOW       Anywhere
-2222 (v6)                  ALLOW       Anywhere (v6)
-80 (v6)                    ALLOW       Anywhere (v6)
+Current rules are listed in ufw-rules.txt
 
