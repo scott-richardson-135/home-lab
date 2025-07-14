@@ -8,8 +8,8 @@ Easy as pie
 
 ## Setting my rules and enabling firewall
 I don't have much to allow yet, so i just ran this command with the few services I need right now
-```sudo ufw allow 2222 # SSH custom port
-   sudo ufw allow 80 # NGINX```
+```sudo ufw allow 2222 # SSH custom port```
+```sudo ufw allow 80 # NGINX```
 
 Then to enable the firewall
 ```sudo ufw enable```
