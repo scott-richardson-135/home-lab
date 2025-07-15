@@ -15,10 +15,11 @@ jail.conf is the default config file. Don't edit this, instead create a jail.loc
 ```bash
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 ```
-Then you can edit the jail.local file to change config. The changes I made are listed [here](https://github.com/scott-richardson-135/home-lab/blob/main/security-baseline/fail2ban/jail.local)
+Then you can edit the jail.local file to change config. The changes I made are listed [here](https://github.com/scott-richardson-135/home-lab/blob/main/security-baseline/fail2ban/jail.local).
+
 Important to note, make sure enabled is set to true underneath the service you want to enable
 
-I had some issues with macros for the backend and logpath, so i just put in the actual log file and backend name.
+I had some issues with default macros for the (%(sshd_log)s, %(sshd_backend)s), so i just put in the actual values instead (/var/log/auth.log, systemd)
 
 ## Start the service
 To start fail2ban and have it startup on boot:
