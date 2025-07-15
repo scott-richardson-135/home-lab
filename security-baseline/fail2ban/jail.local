@@ -1,0 +1,7 @@
+# Relevant changes to jail.local
+
+[sshd]
+enabled = true
+port    = 2222
+logpath = /var/log/auth.log
+backend = systemd
