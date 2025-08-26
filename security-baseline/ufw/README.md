@@ -22,5 +22,5 @@ Then to enable the firewall:
 To view rules, run: 
 ```sudo ufw status```
 
-Current rules are listed in [ufw-rules.txt](https://github.com/scott-richardson-135/home-lab/blob/main/security-baseline/ufw-rules.txt)
+Current rules are listed in [ufw-rules.txt](https://github.com/scott-richardson-135/home-lab/blob/main/security-baseline/ufw/ufw-rules.txt)
 
